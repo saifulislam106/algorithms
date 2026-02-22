@@ -39,3 +39,17 @@ int main(){
     
     return 0;
 }
+
+// input
+// 9 8  nodes and adje
+// 0 2
+// 0 4
+// 0 5
+// 1 3
+// 3 6
+// 6 7
+// 4 5
+// 8 9
+
+// Output: 3
+
