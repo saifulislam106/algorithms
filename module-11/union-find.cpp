@@ -48,19 +48,19 @@ int main(){
         }
     }
 
-    if(cycle){
-        cout << "Cycle Detected";
-    }else cout << "NO Cycle";
+    // if(cycle){
+    //     cout << "Cycle Detected";
+    // }else cout << "NO Cycle";
     
 
 
-    // dsu_union(1, 2);
+    dsu_union(1, 2);
 
-    // cout << find(4) << endl;
+    cout << find(4) << endl;
 
-    // for(int i=0 ; i<6; i++){
-    //     cout << i << "-->" << par[i] << endl;
-    // }
+    for(int i=0 ; i<6; i++){
+        cout << i << "-->" << par[i] << endl;
+    }
 
     return 0;
 }
